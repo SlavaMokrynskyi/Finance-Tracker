@@ -1,0 +1,112 @@
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+.idea/
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+
+# =========================
+# Logs
+# =========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Rust / Cargo (Axum backend)
+# =========================
+# If backend is in /backend
+backend/target/
+
+
+# If Rust project is at repo root, keep these too:
+target/
+
+# Rustfmt / misc
+**/*.rs.bk
+
+# SQLx offline cache (uncomment if you DON'T want to commit it)
+# .sqlx/
+
+# =========================
+# React / TypeScript frontend
+# =========================
+# If frontend is in /frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.parcel-cache/
+frontend/.turbo/
+frontend/coverage/
+frontend/.eslintcache
+frontend/*.tsbuildinfo
+
+# If frontend is at repo root, keep these too:
+node_modules/
+dist/
+build/
+.vite/
+.parcel-cache/
+.turbo/
+coverage/
+.eslintcache
+*.tsbuildinfo
+
+# =========================
+# Framework-specific (optional)
+# =========================
+# Next.js
+.next/
+out/
+
+# Remix
+.cache/
+
+# Nuxt
+.nuxt/
+
+# =========================
+# Test / temp files
+# =========================
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+# =========================
+# Generated files / uploads (optional)
+# =========================
+# uploads/
+# public/uploads/
+
+# =========================
+# Database local files (if any)
+# =========================
+*.sqlite
+*.sqlite3
+*.db
